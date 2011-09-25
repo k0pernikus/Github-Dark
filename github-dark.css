@@ -510,3 +510,17 @@
   background-color:transparent !important;
   border:0 !important;
 }
+
+ul.repositories .body, ul.repositories .private .body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+ul.repositories .body, ul.repositories .private .body, ul.repositories p.updated-at, ul.repositories p.description {
+	background-color: #222 !important;
+}
