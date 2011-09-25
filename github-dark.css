@@ -504,3 +504,9 @@
 .site a, .profilecols ul.stats li a:hover strong, .plans-row .plan, .filters li.selected, #gollum-editor-submit {
   color: orange !important;
 }
+
+.news .alert .title span,.metabox .editable-text:hover,#inbox .list .item .title span {
+  color:yellow !important;
+  background-color:transparent !important;
+  border:0 !important;
+}
